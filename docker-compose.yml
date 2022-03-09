@@ -1,0 +1,7 @@
+version: '3'
+servises:
+   hello:
+     image: ubuntu/hello:1.0
+     ports:
+       - "80:80"
+     restart: always
